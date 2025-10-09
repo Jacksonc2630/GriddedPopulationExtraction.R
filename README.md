@@ -3,8 +3,6 @@ This project extracts WorldPop gridded population data (2000–2020) for Native 
 
 # Directory
 ```
-
-
 ├── R
 │   └── GriddedPopulationExtraction.R
 ├── Data
