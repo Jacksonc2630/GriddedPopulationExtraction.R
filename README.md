@@ -4,16 +4,13 @@ This project extracts WorldPop gridded population data (2000–2020) for Native 
 # Directory
 ```
 
-├── README.md
+
 ├── R
 │   └── GriddedPopulationExtraction.R
 ├── Data
 │   ├── Raw
 │   │   ├── native_boundaries
 │   │   │   ├── tl_2020_us_aitsn.shp
-│   │   │   ├── tl_2020_us_aitsn.dbf
-│   │   │   ├── tl_2020_us_aitsn.shx
-│   │   │   ├── tl_2020_us_aitsn.prj
 │   │   │   └── ...
 │   │   └── population_data
 │   │       ├── worldpop_2000.tif
@@ -23,6 +20,7 @@ This project extracts WorldPop gridded population data (2000–2020) for Native 
 │       ├── NativeBoundaries_Population_2000.csv
 │       ├── NativeBoundaries_Population_2001.csv
 │       └── ...
+├── README.md
 ├── .gitignore
 └── GriddedPopulationExtraction.Rproj
 ```
@@ -34,9 +32,3 @@ This project extracts WorldPop gridded population data (2000–2020) for Native 
 3. Place `.tif` files in `Data/Raw/population_data/`
 4. Open and run `R/GriddedPopulationExtraction.R`
 5. View generated CSVs in `Data/Processed/`
-
-
-
-
-
-
